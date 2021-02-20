@@ -1,0 +1,176 @@
+.nav{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255, 193, 193) 100%);
+}
+
+.item{
+    margin-right: 2em;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+    margin-left:3em; 
+    margin-top:0.1em;
+}
+
+.foot{
+    background: rgb(14,17,47);
+    background: linear-gradient(0deg, rgba(14,17,47,1) 0%, rgba(23,71,43,1) 100%);
+    padding: 3rem;
+}
+
+.paragraph{
+    padding: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.welcome{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(255, 193, 193) 100%);
+    padding: 3rem;
+}
+
+.head{
+    margin-left: 1em;
+}
+
+.tittle{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.paragraph-content{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.logo-head{
+    width: 28em;
+    margin-left: 12em;
+    margin-top: 2em;
+}
+
+.contenedor{
+    overflow:hidden;
+}
+
+.tabla{
+    position:static;
+}
+
+.image-reference{
+    width: 400px;
+    float: right;
+    border-bottom: 5px solid;
+    border-right: 5px solid;
+    border-color: rgb(232,20,95);
+}
+
+.table-striped tbody tr:nth-of-type(odd){
+    background-color:#FFFFFF;
+}
+
+.table-striped>tbody>tr:nth-child(even)>td, 
+      .table-striped>tbody>tr:nth-child(even)>th {
+       background-color:#FFFFFF;
+}
+
+.index{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(255, 193, 193) 100%);
+    padding: 3rem;
+}
+
+.menu-inventary{
+    margin-bottom: 1em;
+}
+
+.button-custom{
+    display: inline-block;
+    font-weight: 350;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 3em 2em;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    width: 100%;
+}
+
+.btn-input {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+.button-custom-color{
+    background-color: rgb(232,20,95);
+    border: 5px solid rgb(232,20,95);
+    color: #ffffff;
+}
+
+.btn-outline-custom {
+    color: #ffffff;
+    border-color: rgb(232,20,95);
+    background-color: rgb(232,20,95);
+}
+
+.button-custom:hover{
+    color: #ffffff;
+    border-color: rgb(207, 18, 84);
+    background-color: rgb(207, 18, 84);
+}
+
+.btn-outline-custom:hover {
+    background: rgb(207, 18, 84);
+}
+
+@media only screen and (max-width: 704px)
+{
+    .logo-head{
+        width: 15em;
+        margin-right:auto;
+    }
+}
+
+#tittle span{
+    background: -webkit-linear-gradient( rgb(233,41,41), rgb(232,20,95));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#tittle-section span{
+    background: -webkit-linear-gradient( rgb(233,41,41), rgb(232,20,95));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
